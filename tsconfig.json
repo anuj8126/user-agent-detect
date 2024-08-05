@@ -5,7 +5,12 @@
         "strict": true,
         "jsx": "react",
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "declaration": true,
+        "typeRoots": ["./node_modules/@types"]
     },
     "include": ["src/**/*"]
-}
+ }
+ 
